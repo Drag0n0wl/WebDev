@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "HTML-PersonalSite"
+		},
+		{
+			"path": "../CSS+-+Bacon+Fansite/CSS - Bacon Fansite"
+		},
+		{
+			"path": "CSS-MySite"
+		},
+		{
+			"path": "Bootstrap-installation"
+		},
+		{
+			"path": "TinDog-Start-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TinDog-Start-master"
+	}
+}
