@@ -1,34 +1,42 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: white;
-}
-
-.container-fluid {
-    padding: 3% 15% 7%;
-}
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    size: 3.5rem;
-    line-height: 1.5;
-}
-
-h2 {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h3 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat-Bold', sans-serif;
 }
 
 p {
     color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
 }
 
 /* Navigation bar */
@@ -58,6 +66,16 @@ p {
     margin: 5% 3% 5% 0;
 }
 
+/* Title Section */
+
+#title {
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
 /* Title image */
 .title-image {
     width: 60%;
@@ -68,14 +86,15 @@ p {
 
 /* Features section */
 #features {
-    padding: 7% 15%;
-    background-color: white;
     position: absolute;
     z-index: 1;
 }
 
+.feature-title {
+    font-size: 1.5rem;
+}
+
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 
@@ -90,14 +109,13 @@ p {
 
 /* Testimonial section */
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
-    color: white;
 
 }
 
-.carousel-item {
-    padding: 7% 15%;
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-image {
@@ -108,7 +126,6 @@ p {
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 
 }
@@ -121,22 +138,35 @@ p {
 /* Pricing Section */
 #pricing {
     padding: 100px;
-    text-align: center;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column {
     padding: 3% 2%;
 }
 
+/* CTA section */
+
+/* Footer section */
+
+.social-icon {
+    margin: 20px 10px;
+}
+
 @media (max-width: 1028px) {
 
     #title {
-        text-align: center;
+        
     }
 
     .title-image {
         position: static;
         transform: rotate(0);
+        text-align: center;
     }
 }
 
